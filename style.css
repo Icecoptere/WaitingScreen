@@ -1,0 +1,79 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: "latoo";
+    src: url("Lato-Thin.ttf");
+}
+
+canvas {
+    display: block;
+}
+
+#title{
+    font-family: latoo;
+    position: absolute;
+    color: #00FAFF;
+    background-color: black;
+    padding: 20px;
+    box-shadow: 0px 0px 5px #000000,
+    5px 5px 5px #000000,
+    10px 10px 5px #000000,
+    15px 15px 5px #000000,
+    20px 20px 5px #000000,
+    25px 25px 5px #000000,
+    30px 30px 5px #000000,
+    35px 35px 5px #000000,
+    40px 40px 5px #000000;
+    top: 25%;
+    left: 25%;
+    font-size: 100px;
+}
+
+#phrase{
+    font-family: latoo;
+    position: absolute;
+    color: #00FAFF;
+    background-color: black;
+    padding: 20px;
+    box-shadow: 0px 0px 5px #000000,
+    -5px 5px 5px #000000,
+    -10px 10px 5px #000000,
+    -15px 15px 5px #000000,
+    -20px 20px 5px #000000,
+    -25px 25px 5px #000000,
+    -30px 30px 5px #000000,
+    -35px 35px 5px #000000,
+    -40px 40px 5px #000000;
+    top: 60%;
+    left: 57%;
+    font-size: 30px;
+}
+
+#loading{
+    position: absolute;
+    background-color: black;
+    padding: 20px;
+    box-shadow: 0px 0px 5px #000000,
+    5px -5px 5px #000000,
+    10px -10px 5px #000000,
+    15px -15px 5px #000000,
+    20px -20px 5px #000000,
+    25px -25px 5px #000000,
+    30px -30px 5px #000000,
+    35px -35px 5px #000000,
+    40px -40px 5px #000000;
+    top: 85%;
+    left: 10%;
+    width: 235px;
+    height: 28px;
+    opacity:0;
+}
+
+#loadingSize{
+    width:0;
+    height:100%;
+    background-color: #FFFFFF;
+
+}
